@@ -26,7 +26,7 @@ Header = {
     'Accept':'*/*'
 }
 cnt = 1
-page_num = 100 #爬取网页翻页次数
+page_num = 10 #爬取网页翻页次数
 page_url = 'https://api.unsplash.com/napi/feeds/home'
 for i in xrange(page_num):
     print 'page'+str(i)+':'
