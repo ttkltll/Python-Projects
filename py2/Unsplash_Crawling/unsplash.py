@@ -1,20 +1,8 @@
 # coding:utf-8
-from selenium import webdriver
-import time
-from bs4 import BeautifulSoup
-import urllib
 import urllib2
 import json
 import re
 
-# driver = webdriver.PhantomJS(executable_path=r'D:\phantomjs\bin\phantomjs.exe')
-# driver.get('https://unsplash.com/?grid=single')
-# time.sleep(1)
-# pic = urllib2.urlopen('https://unsplash.com/photos/1d7J26G9xVY/download?force=true').read()
-# pic_name = '1.jpg'
-# file = open( pic_name, 'wb')
-# file.write(pic)
-# file.close()
 Header = {
     'authorization':'Client-ID d69927c7ea5c770fa2ce9a2f1e3589bd896454f7068f689d8e41a25b54fa6042',
     'accept-version':'v1',
