@@ -8,6 +8,7 @@
 ![获得相似矩阵W](http://img.blog.csdn.net/20170312185213886?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcHA4ODE4/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 2. 第二步很简单，算出每个节点的度数，得到度矩阵D。
+
 ![获得度矩阵D](http://img.blog.csdn.net/20170312185334574?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcHA4ODE4/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 3. 得到拉普拉斯矩阵$L=D-W$，很简单，不贴代码了。
