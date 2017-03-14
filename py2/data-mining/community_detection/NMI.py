@@ -2,6 +2,7 @@
 import numpy as np
 import math
 def NMI(A,B):
+    # len(A) should be equal to len(B)
     total = len(A)
     A_ids = set(A)
     B_ids = set(B)
