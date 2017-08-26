@@ -31,7 +31,7 @@ while page <= crawl_page_num:
                 pic_name = str(cnt) + '.jpeg'
                 cnt += 1
                 print 'downloading page '+ str(page) +' picture ' + pic_name + ' success.'
-                file = open('./pic1/' + pic_name, 'wb') # you should  create a folder named 'pic'
+                file = open('./pic/' + pic_name, 'wb') # you should  create a folder named 'pic'
                 file.write(pic)
                 file.close()
             except:
