@@ -12,9 +12,9 @@ import random
 # 一些备选问候语
 greetList = ['快去睡觉别熬夜','好好找工作加油','注意身体多喝热水','想你了求自拍']
 def tick():
-    users = itchat.search_friends(name=u'xxx') # 找到你女朋友的名称
+    users = itchat.search_friends(name=u'谭亮') # 找到你女朋友的名称
     userName = users[0]['UserName']
-    meetDate = dt.date(2015,9,29)  # 这是你跟你女朋友相识的日期
+    meetDate = dt.date(2019,1,25)  # 这是你跟你女朋友相识的日期
     now = dt.datetime.now()     # 现在的时间
     nowDate = dt.date.today()  # 今天的日期
     passDates = (nowDate-meetDate).days # 你跟你女朋友认识的天数
